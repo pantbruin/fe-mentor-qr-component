@@ -4,15 +4,9 @@
     box-sizing: border-box;
 }
 
-/* html {
+html {
     font-family: 'Outfit', sans-serif;
-    height: 100%;
-    display: flex;
 }
-
-body {
-    flex: 1;
-} */
 
 body {
     height: 100vh;
