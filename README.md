@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [GitHub](https://github.com/pantbruin/fe-mentor-qr-component)
-- Live Site URL: [Add live site URL here](https://pantbruin.github.io/fe-mentor-qr-component/)
+- Live Site URL: [GitHub Pages](https://pantbruin.github.io/fe-mentor-qr-component/)
 
 ### Built with
 - Flexbox
