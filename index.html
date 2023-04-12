@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              white: '#FFFFFF',
+              'light-gray': '#D6E2F0',
+              'gray-blue': '#7B879D',
+              'dark-blue': '#1F3251',
+            },
+          },
+        },
+      };
+    </script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-light-gray h-screen">
+    <main class="h-screen flex justify-center items-center relative">
+      <div
+        class="bg-white flex flex-col items-center w-96 p-5 rounded-3xl shadow-sm shadow-slate-600"
+      >
+        <img class="rounded-xl" src="./images/image-qr-code.png" alt="" />
+        <div class="my-6 px-5 text-center">
+          <h2 class="font-bold text-2xl mb-4">
+            Improve your front-end skills by building projects
+          </h2>
+          <p class="font-sm font-normal text-gray-blue">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+      <footer class="absolute bottom-2">
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Jesse Pantoja</a>.
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
